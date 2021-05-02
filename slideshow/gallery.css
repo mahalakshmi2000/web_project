@@ -1,0 +1,100 @@
+body{
+		//background-image:url("6a9060251092204ba3701e7fe582ee6a.png");
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+		background-color: aliceblue;
+		background-image:url("pngtree-beautiful-rectangle.jpg");
+	}
+#home{
+	//margin:auto;
+	height:600px;
+	padding-left: 100px;
+	//border:1px solid black;
+	//background-image:url("pngtree-beautiful-rectangle.jpg");
+
+}
+#div1{
+	height:70%;
+	//border:1px solid black;
+	width:92%;
+}
+#div2{
+	height: 20%;
+	//margin-left: 164px;
+	//border:1px solid black;
+	width:92%;
+}
+#center{
+	width:55%;
+    height:70%;
+    background-repeat:no-repeat;
+	background-size:cover;
+	margin:auto;
+	float:left;
+	margin:20px;
+	position:relative;
+	//border:1px solid black;
+}
+#pButton{
+		position:absolute;
+		top:46%;
+		left:0;
+		opacity:0.7;
+		border-radius:40%;
+		}
+#nButton{
+		position:absolute;
+		top:46%;
+		left:98.4%;
+		border-radius:40%;
+		}
+#nButton:hover{
+	transform:scale(1.5);
+}
+#pButton:hover{
+	transform:scale(1.5);
+}
+
+.side{
+	width:15%;
+	height:20%;
+	background-repeat:no-repeat;
+	background-size:cover;
+	//display:inline-block;
+	float:left;
+	margin-top:100px;
+	//border:1px solid black;
+	
+}
+
+img{
+	width:100px;
+	height:100px;
+}
+img:hover{
+	transform:scale(1.5);
+}
+#preview{
+	margin-left:100px;
+	//display:block;
+	float:left;
+	//border:1px solid black;
+	
+	
+}
+#prev{
+	margin-left:55px;
+}
+#playmenu{
+	float:left;
+	width:20%;
+	height:50px;
+	margin-left:40%;
+	//border:1px solid black;
+}
+h1{
+	font-size:50px;
+	margin-left:420px;
+	font-style: italic;
+	color: darkgoldenrod;
+}
