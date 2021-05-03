@@ -1,0 +1,71 @@
+body{
+	margin:auto;
+}
+#yemen{
+	float:left;
+	margin:30px;
+	height:300px;
+	width:500px;
+	background-image:linear-gradient(to top, #212121 33%,#fafafa 33% 66%,#f44336 66%);
+}
+#bhutan{
+	float:left;
+	margin:30px;
+	height:300px;
+	width:500px;
+	position:relative;
+	background-image:linear-gradient(to top left ,#ef6c00 50%,#ffe082 50%);
+}
+#vietnam{
+	float:left;
+	margin:30px;
+	height:300px;
+	width:500px;
+	position:relative;
+	background-color:#f44336;
+}
+#india{
+	float:left;
+	margin:30px;
+	height:300px;
+	width:500px;
+	position:relative;
+	background-image:linear-gradient(to bottom,#E67E22 33%,#FDFEFE 33% 66%,#186A3B 66%);
+}
+#img1{
+	position:absolute;
+	width:350px;
+	left:10%;
+	top:10%;
+}
+#img2{
+	position:absolute;
+	width:200px;
+	left:30%;
+	top:17%;
+}
+#img3{
+	position:absolute;
+	left:40%;
+	top:32%;
+	width:21%;
+}
+.div1{
+	float:left;
+	margin:20px;
+	height:455px;
+	width:550px;
+}
+h2{
+	width: 110px;
+    height: 30px;
+    margin-left: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#div2{
+	margin-left:90px;
+}
+#div3{
+	margin-left:90px;
+}
