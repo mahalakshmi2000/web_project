@@ -1,20 +1,21 @@
+body{
+	margin:0;
+	padding:0;
+}
 #home{
 	width:100%;
 	height:100%;
-	//border:1px solid black;
 	
 }
 .parent{
 	width:50%;
 	height:50%;
-	//border:1px solid black;
 	float:left;
 	overflow:hidden;
 }
 .child{
 	width:100%;
 	height:100%;
-	//border:1px solid black;
 	position:relative;
 	transition:1s;
 	
@@ -27,7 +28,6 @@ img{
 	width:100%;
 	height:100%;
 	position:absolute;
-	//border:1px solid black;
 	top:0;
 	left:0;
 	padding-top: 100px;
@@ -51,15 +51,15 @@ img{
 	background-color:rgba(100, 30, 22,0.5);
 }
 a{
-	//padding-top:100px;
-	//padding-left:277px;
 	opacity:0;
-	font-size:30px;
-	//color:black;
-	
+	font-size:30px;	
 }
 .parent:hover a{
 	opacity:1;
+	display: block;
+    margin-top: 10%;
+    width: 10%;
+    margin-left: 10%;
 }
 
 
