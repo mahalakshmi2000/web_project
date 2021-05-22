@@ -1,0 +1,88 @@
+<html>
+	<head>
+		<title>coffee</title>
+		<style>
+			body{
+				position:relative;
+				background-color:black;
+			}
+			#home{
+				height:80%;
+				width:70%;
+				margin-left:15%;
+				background-color: #a5d6a7;
+				position: absolute;
+				margin-top:5%;
+				
+			}
+			#div1{
+				height:100%;
+				width:50%;
+				float:left;
+				background-color:white;
+				
+			}
+			img{
+				height:100%;
+				width:100%;
+			}
+			#div2{
+				height:100%;
+				width:50%;
+				float:left;
+			}
+			#parent{
+				height:80%;
+				width:90%;
+				margin: auto;
+    			margin-top: 6%;
+			}
+			.input1{
+				width:80%;
+				height:10%;
+				border:none;
+				border-bottom: 1px solid #ccc;
+				margin-left:2%;
+				outline:0;
+			}
+			#input2{
+				display:block;
+				margin-top:5%;
+				width:30%;
+				height:10%;
+				background-color:#4caf50;
+				margin-left:2%;
+				border:none;
+			}
+			p{
+				margin-left:2%;
+			}
+			h1{
+				margin-left:2%;
+			}
+		</style>
+	</head>
+	<body>
+		
+			<div id = "home">
+				<div id = "parent">
+					<div id = "div1">
+						<h1>Hello there</h1>
+						<p>you need an account contine</p>
+						<form action="https://www.google.com/gmail/about/#">
+							<input  type="text" name="name" class="input1"  placeholder="  Full Name" />
+							<input  type="text" name="E-mail" class="input1"  placeholder="  E-mail" />
+							<input  type="password" name="pwd" class="input1"  placeholder="  password" />
+							<input  type="password" name="Rpwd" class="input1" placeholder="  Repeat password" />
+							<input type="submit" name="sub" id="input2"  value="Sign up"/>
+						</form>
+						<p>By singing up,you agree to the terms & conditions</p>
+					</div>
+					<div id = "div2">
+						<img src = "coffeeimg.jpeg">
+					</div>
+				</div>
+			</div>
+		
+	</body>
+</html>
