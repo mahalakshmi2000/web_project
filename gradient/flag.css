@@ -1,60 +1,63 @@
 body{
-	margin:auto;
+	margin:0;
+	padding:0;
+}
+#home{
+	height:100%;
+	width:100%;
 }
 #yemen{
 	float:left;
-	margin:30px;
-	height:300px;
-	width:500px;
+	margin:5%;
+	height:80%;
+	width:80%;
 	background-image:linear-gradient(to top, #212121 33%,#fafafa 33% 66%,#f44336 66%);
 }
 #bhutan{
 	float:left;
-	margin:30px;
-	height:300px;
-	width:500px;
+	margin:5%;
+	height:80%;
+	width:80%;
 	position:relative;
 	background-image:linear-gradient(to top left ,#ef6c00 50%,#ffe082 50%);
 }
 #vietnam{
 	float:left;
-	margin:30px;
-	height:300px;
-	width:500px;
+	margin:5%;
+	height:80%;
+	width:80%;
 	position:relative;
 	background-color:#f44336;
 }
 #india{
 	float:left;
-	margin:30px;
-	height:300px;
-	width:500px;
+	margin:5%;
+	height:80%;
+	width:80%;
 	position:relative;
 	background-image:linear-gradient(to bottom,#E67E22 33%,#FDFEFE 33% 66%,#186A3B 66%);
 }
 #img1{
 	position:absolute;
-	width:350px;
+	width:70%;
 	left:10%;
-	top:10%;
 }
 #img2{
 	position:absolute;
-	width:200px;
+	width:40%;
 	left:30%;
-	top:17%;
+	top:12%;
 }
 #img3{
 	position:absolute;
 	left:40%;
-	top:32%;
-	width:21%;
+	top:30%;
+	width:20%;
 }
 .div1{
 	float:left;
-	margin:20px;
-	height:455px;
-	width:550px;
+	height:50%;
+	width:50%;
 }
 h2{
 	width: 110px;
@@ -63,9 +66,4 @@ h2{
     margin-bottom: 0;
     margin-top: 0;
 }
-#div2{
-	margin-left:90px;
-}
-#div3{
-	margin-left:90px;
-}
+
