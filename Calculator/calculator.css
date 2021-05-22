@@ -1,58 +1,51 @@
 body{
+	margin:0;
+	padding:0;
+	position:relative;
 	background-image:url("Background-Image.jpg");
 	background-size:cover;
-}
-#div1{
-	width:412px;
-	height:450px;
-	margin:auto;
-	margin-top:100px;
-	//border-color:black;
-	background-color:#263238;
-	padding-top:40px;
-	
-	
-}
+	}
 #home{
-	width:500px;
-	height:500px;
+	width:40%;
+	height:75%;
 	margin:auto;
-	//margin-top:100px;
-	//border-color:black;
+	//border:1px solid black;
+	//box-sizing: border-box;
 	background-color:#263238;
 	border-radius: 15px;
+	position:absolute;
+	top:15%;
+	left:30%;
+}
+#parent{
+	width:80%;
+	height:80%;
+	background-color:#263238;
+	position:absolute;
+	top:10%;
+	left:10%;
 	
-}
-
-.button{
-	width:80px;
-	height:60px;
-	margin-right:10px;
-	border-color:#9E9E9E;
-	margin-top:10px;
-	margin-left:10px;
-	border-radius: 15px;
-}
-.button1{
-	width:80px;
-	height:60px;
-	margin-right:10px;
-	border-color:#9E9E9E;
-	margin-top:10px;
-	margin-left:10px;
-	border-radius: 15px;
-}
+	}
 #display{
-	width:412px;
-	height:80px;
+	width:99%;
+	height:20%;
+	border-radius: 15px;
 	font-size:30px;
 	text-align:right;
 	background-color: #e6ee9c;
-	//border-color:#9E9E9E;
 }
-.button:hover{
-	background-color:#009688;
+.button{
+	width:20%;
+	height:14%;
+	margin-top:2%;
+	margin-left:5%;
+	border-radius: 15px;
 }
-.button1:hover{
-	background-color:#009688;
+.button1{
+	width:20%;
+	height:14%;
+	margin-top:2%;
+	border-radius: 15px;
 }
+					
+	
