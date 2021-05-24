@@ -8,9 +8,6 @@ body{
 #home{
 	width:40%;
 	height:75%;
-	margin:auto;
-	//border:1px solid black;
-	//box-sizing: border-box;
 	background-color:#263238;
 	border-radius: 15px;
 	position:absolute;

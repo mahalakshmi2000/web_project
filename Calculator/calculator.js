@@ -1,6 +1,6 @@
 var operator;
 var first_number;
-var second_number
+var second_number;
 function Calculator(num){
 	//console.log(num.value);
 	if(num.value == "C"){
