@@ -1,0 +1,221 @@
+body{
+	margin:0;
+    position:relative:
+}
+#welcome{
+	//background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("welcome_image.jpg");
+	background-image:url("welcome_image.jpg");
+	color:black;
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100%;
+	border:1px solid black;
+	box-sizing: border-box;
+	
+}
+#wel-head2{
+	font-family:'Lobster', cursive;
+	//text-align:center;
+	margin:0;
+	margin-top:10%;
+	color:black;
+	padding-left:30%;
+}
+#wel-head1{
+	font-family:'Lobster', cursive;
+	//text-align:center;
+	font-size:80px;
+	margin:0;
+	color:black;
+	padding-left:15%;
+}
+#icon-img{
+	//font-size:300px;
+	margin-left: 53px;
+  	margin-top: 50px;
+	width:50%;
+	height:50%;
+	border-radius:50%;
+}
+.innerdiv{
+	height:100%;
+	width:50%;
+	float:left;
+	
+}
+#intro{
+	font-size:30px;
+	margin-left:5%;
+	//font-family:'Lobster', cursive;
+}
+#home{
+	position:relative;
+}
+#mydetail{
+	height:100%;
+	width:80%;
+	border:1px solid black;
+	box-sizing: border-box;
+	margin:auto;
+	background: #F9F9F9;
+    box-shadow: 0 0 3px black;
+    margin-top: -2%;
+}
+#head{
+	height:10%;
+	background-color:#9e9e9e;
+	position:fixed;
+	width:100%;
+	margin-top:0;
+	z-index:1000; //header tag is hidding behaind the project id  so use the atribute
+}
+#nav-keys>a{
+    width: 15%;
+    float: left;
+    height:100%;
+    border-radius:10%;
+}
+.nav-li{
+	display:inline-block;
+    width: 100%;
+    float: left;
+    height:50%;
+    color:black;
+    text-decoration: none;
+    text-align:center;
+    margin-top: 10%;
+    font-size:20px;
+}
+#nav-keys{
+	margin:0;
+	height: 100%;
+}
+.image1{
+	width:100%;
+	height:100%;
+	transform: scale(1.1);
+	transition:0.5s;
+}
+#nav-keys>a:hover {
+  background-color:white;
+  }
+#project{
+	height:130%;
+	background-color: #009688;
+	padding-top: 2%;
+}
+.child{
+	width:38%;
+	height:40%;
+	float: left;
+	margin-top: 5%;
+	margin-left:8%;
+	overflow:hidden;
+}
+.child:hover .image1{
+	transform:scale(1);
+	
+}
+
+#contact{
+	height:100%;
+	background-color: #9e9e9e30;
+}
+#inform{
+	height:70%;
+	width:80%;
+	margin:auto;
+	
+}
+#parent{
+	height:30%;
+	width:100%;
+	
+}
+.input1{
+	width:40%;
+	height:15%;
+	margin-left:5%;
+	border-radius:5px;
+	font-size: 20px;
+	margin-top:2%;
+}
+
+#msg{
+	width:80%;
+	height:50%;
+	margin-left:10%;
+	margin-top:2%;
+	border-radius:5px;
+	font-size: 20px;
+}
+#send{
+	font-size:30px;
+	margin-left:40%;
+	width:15%;
+	background: #7AA93C;
+	border-radius: 10px;
+	margin-top:2%;
+}
+#H2{
+	text-align:center;
+	margin:auto;
+	border-bottom:3px solid black;
+	box-sizing: border-box;
+	width:30%;
+	border-radius:10px;
+}
+.image2{
+	width:12%;
+	height:35%;
+	padding-left: 6%;
+	margin-top:5%;
+}
+.image2:hover {
+  transform: scale(1.2);
+  }
+#icon{
+	height:50%;
+	width:40%;
+	margin:auto;
+	padding-left: 8%;
+}
+#footer{
+	height:30%;
+	background-color:red;
+	margin-top: 4%;
+	position: relative;
+	padding-top: 1%;
+}
+#end{
+	font-size:20px;
+	text-align:center;
+}
+#email{
+	font-size:20px;
+	text-align:center;
+	margin:0;
+}
+#inner-head1{
+	margin-left:5%;
+	border-bottom:1px solid black;
+	width:50%;	
+}
+#inner-head2{
+	margin-left:5%;	
+}
+#para{
+	font-size:30px;
+	margin-left:5%;	
+	
+}
+#project-head{
+	margin:0;
+	text-align: center;
+}
+
+
+
+
+
+
