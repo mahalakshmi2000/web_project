@@ -220,24 +220,14 @@ body{
 #inner-img{
 	margin-left:5%;	
 }
-#wel-div{
-	width:15%;
-	height:10%;
-	background-color:black;
-	margin-left: 30%;
-	position: relative;
-	top:7%;
-}
+
 #wel-para{
 	position: absolute;
 	top:10%;
 	left:25%;
 	color: white;
 }
-#wel-div:hover{
-	background-color:#795548;
-	
-}
+
 .project-div{
 	position: absolute;
 	height:100%;
