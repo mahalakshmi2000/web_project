@@ -11,8 +11,8 @@ function Calculator(num){
 		first_number = +document.getElementById("display").value;
 		operator = num.value;
 		document.getElementById("display").value = "";
+		}
 		
-	}
 		else if(num.value == "="){
 			second_number = +document.getElementById("display").value;
 			if(operator == "+"){
@@ -32,11 +32,11 @@ function Calculator(num){
 				document.getElementById("display").value = first_number % second_number;
 			}
 				
-			}
+			
 		}
 		else{
-		document.getElementById("display").value  += num.value;
+			document.getElementById("display").value  += num.value;
+		}
 	}
-}
 }
 
