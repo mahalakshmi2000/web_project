@@ -31,9 +31,7 @@ function Calculator(num){
 			else if(operator == "%"){
 				document.getElementById("display").value = first_number % second_number;
 			}
-			else if(operator == "+/-"){
-				document.getElementById("display").value = first_number + second_number+",";
-				document.getElementById("display").value += first_number - second_number;
+				
 			}
 		}
 		else{

@@ -4,12 +4,14 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Mahalakshmi Webpage</title>
+		<link href = "MyProfile.jpeg" rel = "icon">
 	</head>
 	<body>
 		<div id = "home">
 			<header id = "head">
 				<ul id = "nav-keys">
-					<a href="#"><li class = "nav-li">Home</li></a>
+					<a href="#"><li id = "home-li"class = "nav-li">Home</li></a>
 				
 					<a href = "#project"><li class = "nav-li">project</li></a>
 				
@@ -29,18 +31,20 @@
 				
 				<h2 id = "wel-head2">Welcome to My Webproject</h2>
 				<h1 id = "wel-head1">It's Nice to Meet You</h1>
+				<div id = "wel-div">
+					<p id = "wel-para">Discover more</p>
+				</div>
 			</div>
 			<div id = "mydetail">
 				<div class = "innerdiv">
 					<p id = "para"><strong>Hi!</strong></p>
 					<p id = "intro"> I'm Mahalakshmi
-					<br>I am a programmar and Web Designer
-					<br>I Know Basics of the programming languages Python and Java
+					<br>I am enthusiastic learner
+					<br>I know basics of the programming languages, python,java,javascript,html,css
 					</p>
-					
 					<h1 id = "inner-head1">My Achievements</h1>
 					<h2  id = "inner-head2">Hackerrank</h2>
-					<a id = "inner-anger" href ="https://www.hackerrank.com/mahalakshmiraga1" target= "blank"><img src = "hakerrank.png" ></a>
+					<a id = "inner-anger" href ="https://www.hackerrank.com/mahalakshmiraga1" target= "blank"><img id = "inner-img" src = "Hackerrank.png" ></a>
 					
 				</div>
 				<div class = "innerdiv">
@@ -50,34 +54,71 @@
 			</div>
 			<div id = "project">
 				<h1 id = "project-head"> My Webproject</h1>
-				<a href = "./Calculator/calculator.html" target="blank">
-					<div id = "child1" class = "child"><img class = "image1" src = "Calculator/Calculator_preview.png"></div>
+				<a class = "project-anger" href = "./Calculator/calculator.html" target="blank">
+						<div id = "child1" class = "child">
+							<img class = "image1" src = "Calculator/Calculator_preview.png"/>
+							<div class = "project-div"><h2 class = "title">Calculator</h2></div>
+						</div>
 				</a>
 				<a href = "./cities/city.html" target="blank">
-					<div id = "child2" class = "child"><img class = "image1" src = "cities/cities_preview.png" ></div>
+					<div id = "child2" class = "child">
+						<img class = "image1" src = "cities/cities_preview.png" >
+						<div class = "project-div"><h2 class = "title">Cities</h2></div>
+					</div>
 				</a>
 				<a href = "./form/form.html" target="blank" >
-					<div id = "child3" class = "child"><img class = "image1" src = "form/form-preview.png"></div>
+					<div id = "child3" class = "child">
+						<img class = "image1" src = "form/form-preview.png">
+						<div class = "project-div"><h2 class = "title">Form</h2></div>
+					</div>
 				</a>
 				<a href = "./searchbar/searchbar.html" target="blank" >
-					<div id = "child4" class = "child"><img class = "image1" src = "searchbar/searchbar_preview.png"></div>
+					<div id = "child4" class = "child">
+						<img class = "image1" src = "searchbar/searchbar_preview.png">
+						<div class = "project-div"><h2 class = "title">Searchbar</h2></div>
+					</div>
+				</a>
+				<a href = "./photos/photo.html" target="blank" >
+					<div id = "child4" class = "child">
+						<img class = "image1" src = "photos/photo-preview.png">
+						<div class = "project-div"><h2 class = "title">Gallery</h2></div>
+					</div>
+				</a>
+				<a href = "./movie_review/soorarai_potru.html" target="blank" >
+					<div id = "child4" class = "child">
+						<img class = "image1" src = "movie_review/movie-review.png">
+						<div class = "project-div"><h2 class = "title">Moviereview</h2></div>
+					</div>
+				</a>
+				<a href = "./gradient/flag.html" target="blank" >
+					<div id = "child4" class = "child">
+						<img class = "image1" src = "gradient/gradient-preview.png">
+						<div class = "project-div"><h2 class = "title">Gradient</h2></div>
+					</div>
+				</a>
+				<a href = "./ponniyin_selvan/poniyinselvan.html" target="blank" >
+					<div id = "child4" class = "child">
+						<img class = "image1" src = "ponniyin_selvan/ponniyin-selvan.png">
+						<div class = "project-div"><h2 class = "title">ponniyinselvan</h2></div>
+					</div>
 				</a>
 			</div>	
 			<div id = "contact">
 				<div id = "inform">
-				<h1 id = "H2">post your review</h1>
+				<h1 id = "inform-head">post your review</h1>
 				<form>
 					<input type = "text" name = "name" class = "input1" placeholder="Name">
 					<input type = "email" name = "email" class = "input1"  placeholder="Email"><br>
 					<textarea name = "msg" id = "msg" placeholder="Message" ></textarea> <br>
-					<input type ="submit" id = "send" name = "sub" value = "send">
+					<button type ="submit" id = "send" name = "sub" value = "send">send</button>
 				</form>
 				</div>
 				<div id = "parent">
 					<div id = "icon">
-						<a href = "https://twitter.com/" target = "blank"><img class = "image2" src = "Twitter.png"></a>
-						<a href = "https://www.youtube.com/" target = "blank"><img class = "image2" src = "youtube.png"></a>
-						<a href = "https://www.facebook.com/" target = "blank"><img class = "image2" src = "fb-icon.png"></a>
+						<a href = "https://twitter.com/" target = "blank"><img class = "image2" src = "Twitter.png" title = "twitter"></a>
+						<a href = "https://www.youtube.com/" target = "blank"><img class = "image2" src = "youtube.png" title = "youtube"></a>
+						<a href = "https://www.facebook.com/" target = "blank"><img class = "image2" src = "fb-icon.png" title = "facebook"></a>
+						<a href = "https://www.github.com/" target = "blank"><img class = "image2" src = "github.png" title="github"></a>
 					</div>
 					<div id = "footer">
 						<p id = "email">Email Id : mahalakshmiragaviragavi@gmail.com</p>

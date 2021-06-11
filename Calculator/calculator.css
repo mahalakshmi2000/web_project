@@ -27,9 +27,10 @@ body{
 	width:99%;
 	height:20%;
 	border-radius: 15px;
-	font-size:30px;
+	font-size:40px;
 	text-align:right;
 	background-color: #e6ee9c;
+	padding-right: 2%;
 }
 .button{
 	width:20%;
@@ -44,5 +45,9 @@ body{
 	margin-top:2%;
 	border-radius: 15px;
 }
-					
+#delete{
+	width:46%;
+	height:14%;
+
+}					
 	
