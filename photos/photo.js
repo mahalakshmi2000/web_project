@@ -1,8 +1,8 @@
 var imglist = ["Darjeeling.jpg","Dudhsagar-Falls.jpg","goa.jpg","Gulmarg.jpg","kodaikanal-hills.jpg","Leh-Ladakh.jpg","manali.jpg","Ooty-2.jpg"];
 var num = 0;
 function Start(){
-	document.getElementById("prev").style.backgroundImage = "url("+imglist[imglist.length-1]+")";
 	document.getElementById("center").style.backgroundImage = "url("+imglist[num]+")";
+	document.getElementById("prev").style.backgroundImage = "url("+imglist[imglist.length-1]+")";
 	document.getElementById("next").style.backgroundImage = "url("+imglist[num+1]+")";
 	
 }
@@ -28,7 +28,7 @@ function next(){
 			document.getElementById("next").style.backgroundImage = "url("+imgList[0]+")";
 		}
 		else{
-		document.getElementById("next").style.backgroundImage = "url("+imglist[num+1]+")";
+			document.getElementById("next").style.backgroundImage = "url("+imglist[num+1]+")";
 		}
 	}
 }
@@ -57,7 +57,7 @@ function prev(){
 }
 function preview(){
 	for(var i = 0; i < imglist.length;i++){
-	document.getElementById("preview").innerHTML += "<img id = 'img"+i+"' onclick = 'photo("+'"'+imglist[i]+'"'+")'  src='"+imglist[i]+"'"+"/"+">";
+		document.getElementById("preview").innerHTML += "<img id = 'img"+i+"' onclick = 'photo("+'"'+imglist[i]+'"'+")'  src='"+imglist[i]+"'"+"/"+">";
 	}	
 }
 preview();

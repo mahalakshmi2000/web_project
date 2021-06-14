@@ -5,37 +5,32 @@ body{
 #home{
 	height:100%;
 	width:100%;
-	margin-top: 1%;
 }
 #yemen{
 	float:left;
-	margin-left:10%;
-	height:80%;
-	width:80%;
+	height:90%;
+	width:100%;
 	background-image:linear-gradient(to top, #212121 33%,#fafafa 33% 66%,#f44336 66%);
 }
 #bhutan{
 	float:left;
-	margin-left:10%;
-	height:80%;
-	width:80%;
+	height:90%;
+	width:100%;
 	position:relative;
 	background-image:linear-gradient(to top left ,#ef6c00 50%,#ffe082 50%);
 }
 #japan{
 	float:left;
-	margin-left:10%;
-	height:80%;
-	width:80%;
+	height:90%;
+	width:100%;
 	position:relative;
 	background-color:white;
 	box-shadow: 0 0 3px black;
 }
 #india{
 	float:left;
-	margin-left:10%;
-	height:80%;
-	width:80%;
+	height:90%;
+	width:100%;
 	position:relative;
 	background-image:linear-gradient(to bottom,#E67E22 33%,#FDFEFE 33% 66%,#186A3B 66%);
 }
@@ -54,13 +49,14 @@ body{
 	position:absolute;
 	left:40%;
 	top:31%;
-	width:21%;
+	width:20%;
 }
 .div1{
 	float:left;
-	height:50%;
-	width:45%;
-	margin-left:3%;
+	height:45%;
+	width:40%;
+	margin-left:7%;
+	margin-top:2%;
 }
 h2{
 	width: 80%;
