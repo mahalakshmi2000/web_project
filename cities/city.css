@@ -57,9 +57,9 @@ a{
 .parent:hover a{
 	opacity:1;
 	display: block;
-    margin-top: 10%;
+    margin-top: 5%;
     width: 10%;
-    margin-left: 10%;
+   // margin-left: 10%;
 }
 
 
