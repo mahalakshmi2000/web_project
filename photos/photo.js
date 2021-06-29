@@ -25,7 +25,7 @@ function next(){
 		document.getElementById("prev").style.backgroundImage = "url("+imglist[num-1]+")";
 		
 		if(num == imglist.length-1){
-			document.getElementById("next").style.backgroundImage = "url("+imgList[0]+")";
+			document.getElementById("next").style.backgroundImage = "url("+imglist[0]+")";
 		}
 		else{
 			document.getElementById("next").style.backgroundImage = "url("+imglist[num+1]+")";
@@ -58,7 +58,9 @@ function prev(){
 function preview(){
 	for(var i = 0; i < imglist.length;i++){
 		document.getElementById("preview").innerHTML += "<img id = 'img"+i+"' onclick = 'photo("+'"'+imglist[i]+'"'+")'  src='"+imglist[i]+"'"+"/"+">";
+		
 	}	
+	
 }
 preview();
 function photo(input){
@@ -96,7 +98,8 @@ function time(){
 function play(){	
 				time();
 				j = 0;
-				}
+	
+			}
 
 function stop(){
 		clearTimeout(stp);
