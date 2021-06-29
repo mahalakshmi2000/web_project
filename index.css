@@ -143,6 +143,7 @@ body{
 	border-radius:5px;
 	font-size: 20px;
 	margin-top:5%;
+	outline: 0;
 }
 
 #msg{
@@ -152,6 +153,7 @@ body{
 	margin-top:2%;
 	border-radius:5px;
 	font-size: 20px;
+	outline: 0;
 }
 #send{
 	font-size:30px;
