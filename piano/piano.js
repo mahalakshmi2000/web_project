@@ -1,11 +1,11 @@
 keys = document.querySelectorAll('.key');
 console.log(keys)
-regulars = document.getElementsByClassName('key white');
+regulars = document.getElementsByClassName('white');
 console.log(regulars)
-sharps = document.getElementsByClassName('key black');
+sharps = document.getElementsByClassName('black');
 console.log(sharps)
-const whites = ['a', 's', 'd', 'f', 'g', 'h', 'j'];
-const blacks = ['w', 'e', 'r', 't', 'y'];
+whites = ['a', 's', 'd', 'f', 'g', 'h', 'j'];
+blacks = ['w', 'e', 'r', 't', 'y'];
 		
 keys.forEach((key) =>{
 	//console.log(key)
