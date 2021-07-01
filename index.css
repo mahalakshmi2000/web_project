@@ -1,13 +1,13 @@
 body{
 	margin:0;
     position:relative;
-    background-image:url("body_background.jpeg");
+    background-image:url("profile_images/body_background.jpeg");
     background-size:cover;
     background-attachment:fixed;
 }
 #welcome{
 	
-	background-image:url("welcome_image.jpg");
+	background-image:url("profile_images/welcome_image.jpg");
 	color:black;
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -98,15 +98,15 @@ body{
   background-color:white;
   }
 #project{
-	height:300%;
+	height:350%;
 	padding-top: 2%;
-	background-image:url("project_background.jpeg");
+	background-image:url("profile_images/project_background.jpeg");
 	background-size:cover;
 	background-repeat:no-repeat;
 }
 .child{
 	width:35%;
-	height:20%;
+	height:16%;
 	float: left;
 	margin-top: 5%;
 	margin-left:8%;
