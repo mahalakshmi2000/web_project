@@ -7,17 +7,21 @@ function Calculator(num){
 		document.getElementById("display").value = "";
 	}
 	else {
-		if(num.value == "+" || num.value == "-" || num.value == "*" || num.value == "/" || num.value == "%" || num.value == "+/-" ){
+		if(num.value == "+" || num.value == "-" || num.value == "*" || num.value == "/" || num.value == "%" || num.value == "+/-" ||num.value == "^"){
 			first_number = parseInt(document.getElementById("display").value);
 			operator = num.value;
 			document.getElementById("display").value = "";
 		}
 		
 		else if(num.value == "="){
+			
 			second_number = parseInt(document.getElementById("display").value);
 			if(operator == "+"){
 				
 				document.getElementById("display").value = first_number + second_number;
+			}
+			else if(operator == "^"){
+				document.getElementById("display").value = Math.pow(first_number,second_number);
 			}
 			else if(operator == "-"){
 				document.getElementById("display").value = first_number - second_number;
