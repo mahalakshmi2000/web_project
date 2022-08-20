@@ -66,7 +66,7 @@ body{
 	position:fixed;
 	width:100%;
 	margin-top:0;
-	z-index:1000; //header tag is hidding behaind the project id  so use the atribute
+	z-index:1000; 
 }
 #nav-keys>a{
     width: 15%;
@@ -208,7 +208,8 @@ body{
 	width:49%;	
 }
 #inner-head2{
-	margin-left:5%;	
+	margin-left:5%;	 
+	   margin-bottom: 0;
 }
 #para{
 	font-size:30px;
@@ -221,6 +222,7 @@ body{
 }
 #inner-img{
 	margin-left:5%;	
+	/* margin-top: -5%; */
 }
 
 #wel-para{
