@@ -5,5 +5,5 @@ This repository contains all my web projects. And i used the below programming l
 * CSS
 * Javascript 
 
-To open my profile with all my projects please open [this](https://mahalakshmi2000.github.io/web_project/) website 
+To open my profile with all my projects please open [this](https://web-project-mahalakshmi.netlify.app/) website 
  
